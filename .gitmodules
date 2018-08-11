@@ -1,3 +1,0 @@
-[submodule "tuf"]
-	path = tuf
-	url = https://github.com/theupdateframework/tuf
