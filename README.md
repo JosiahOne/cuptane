@@ -1,5 +1,5 @@
 # cuptane
-Uptane Implementations in ANSI-C.
+Uptane Implementation in ANSI-C.
 
 Status: Currently an active WIP. Does not make any security or correctness guarentees.
 
