@@ -1,0 +1,3 @@
+[submodule "rust-tuf"]
+	path = rust-tuf
+	url = https://github.com/heartsucker/rust-tuf.git
