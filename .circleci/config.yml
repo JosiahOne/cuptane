@@ -6,6 +6,6 @@ jobs:
     steps:
       - checkout
       - run:
-          name: Build 
-          command: echo "1" | ./build.sh;
+          name: Build without TUF
+          command: echo "2" | ./build.sh;
 
