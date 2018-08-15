@@ -24,4 +24,4 @@ done
 # Build Uptane source libs
 cd src;
 
-gcc -c -ansi primary-full.c -o primary-full.o # Builds full primary
+gcc -c -std=c89 -pedantic -Werror primary-full.c -o primary-full.o # Builds full primary
