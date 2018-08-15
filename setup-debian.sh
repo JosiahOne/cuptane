@@ -1,3 +1,3 @@
 # Install dependencies on Debian.
 
-sudo apt-get install -y gcc;
+apt-get install -y gcc;
