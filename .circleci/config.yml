@@ -6,6 +6,9 @@ jobs:
     steps:
       - checkout
       - run:
+          name: Install dependencies 
+          command: ./setup-debian.sh;
+      - run:
           name: Build without TUF
           command: echo "2" | ./build.sh;
 
