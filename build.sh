@@ -13,6 +13,6 @@ gcc -c -std=c89 -pedantic -Werror primary-full.c -o primary-full.o # Builds full
 # Build tests
 cd ../tests;
 
-gcc -c -I../headers/cuptane.h -std=c89 -pedantic -Werror full-client-updater.c -o full-client-updater.o 
+gcc -c -I../headers/ -std=c89 -pedantic -Werror full-client-updater.c -o full-client-updater.o 
 
 gcc -o full-client-updater full-client-updater.o ../src/primary-full.o
